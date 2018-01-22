@@ -20,7 +20,12 @@ import com.helpinghands.subh.controller.MailSender;
 @SpringBootApplication
 @EnableJpaRepositories
 @ComponentScan("com.helpinghands.subh")
-public class WebAppInitializer {
+public class WebAppInitializer  extends SpringBootServletInitializer {
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(WebAppInitializer.class);
+    }
 
 	 private Logger logger = LoggerFactory.getLogger(this.getClass());
 	    @Autowired

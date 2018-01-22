@@ -1,7 +1,0 @@
-com/helpinghands/subh/controller/MainController.class
-com/helpinghands/subh/repository/UserRepository.class
-com/helpinghands/subh/repository/UserRepository$UserRowMapper.class
-com/helpinghands/subh/controller/MailSender.class
-com/helpinghands/subh/WebAppInitializer.class
-com/helpinghands/subh/controller/MyRestController.class
-com/helpinghands/subh/model/User.class
